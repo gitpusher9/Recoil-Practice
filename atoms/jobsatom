@@ -1,0 +1,6 @@
+import { atom } from 'recoil';
+
+export const JobsAtom = atom({
+    key: 'JobsAtom',
+    default: 10
+})
